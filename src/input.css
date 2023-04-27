@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+    margin-bottom: 1.25rem;
+  }
+
+  /** MEDIA QUERIES **/
+  @media (min-width: 640px) {
+    html {
+      font-size: 18px;
+    }
+  }
+
+  .c-gradient {
+    background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(255,251,235,1) 25%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(255,251,235,1) 25%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(255,251,235,1) 25%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#fffbeb',GradientType=0 ); /* IE6-9 */
+  }
